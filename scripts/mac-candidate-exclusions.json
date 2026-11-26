@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "sourceInput": "weism",
+  "reason": "User-requested removal of these 40 supplementary Han candidates from the Mac packaged dictionary",
+  "excludedCharacterCount": 40,
+  "characters": "𠌥𠰻𠳿𠹤𠿟𡉦𡯁𡵉𢈈𢪱𢯷𢲴𣁋𣁳𣇫𣲗𣲘𣶈𥁕𥒮𥯤𦉪𦬣𦼇𧄸𨂿𨗨𩥈𩵱𩺰𫇭𫘜𫟘𬀩𬇕𬘫𬭩𬭬𬱟𬶏"
+}

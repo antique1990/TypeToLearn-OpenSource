@@ -1,0 +1,27 @@
+{
+  "pinyinEntries": 240724,
+  "thuoclAcceptedRows": 127271,
+  "englishEntries": 77477,
+  "cangjieEntries": 23947,
+  "databaseSHA256": "3481d8a296b2b11590f068bd53dca5156013495481e2fbb1dbed9b7b4f3fed1a",
+  "sources": {
+    "cangjie5.base.dict.yaml": "8690f2ad8aafd38780846881aa916b5779e6d9247a351a1da426d3f3257afca4",
+    "cedict.gz": "d434b5e90470877952fcbae02de42e4272a09d88783ce2ffa66f571e6871c2f9",
+    "jieba-dict.txt": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8",
+    "thuocl/THUOCL_IT.txt": "e8cd42c9f5559735fa3bfb91515cbe051f991efd4a803038a1d5c0da85af3526",
+    "thuocl/THUOCL_animal.txt": "bcdc95a32fe713d4bc32957ae26174e3b464908e318e821c9abb295e90249145",
+    "thuocl/THUOCL_caijing.txt": "68e63d2009e59c6f388eeaa789d19b6a681657de3e8e56cc3479b21cd8548542",
+    "thuocl/THUOCL_car.txt": "58ffd756b89e8574852bc72c254276a1d7fa8821342eb3cbf3be73ca33ab921c",
+    "thuocl/THUOCL_chengyu.txt": "c339d5d6e37d4f8ecdcb82f2a02b7fdfc66796f0a5215155f2aff8a77e89a7eb",
+    "thuocl/THUOCL_diming.txt": "ca5574399da5750a2c36dc373f36e31a66ed1f8a4b21646df6ca44ec0b888d89",
+    "thuocl/THUOCL_food.txt": "084caa96ad4f976720003e9420097ba7cb5ddbb17f9f8c8f76bc4b8e0cc777fd",
+    "thuocl/THUOCL_law.txt": "8ef1a5f41052ac95dedde88b167c5031a43b3e0211bf128b6125736cc76ef7b2",
+    "thuocl/THUOCL_lishimingren.txt": "d0e5094016e6db8c55d363dc022f48f7b1753cf6d07e216f63cf522ce8e53605",
+    "thuocl/THUOCL_medical.txt": "a01f39f1677af0b6a620bbc68bf293e8e436f06248b74adb625cd61d9ad7bbcd",
+    "thuocl/THUOCL_poem.txt": "f7045571f57114a3a70d2eaaeec8f991897d536be808f93161709f1289c8108c",
+    "wordnet/dict/index.adj": "42f58dda2c7cff66eb8fa55ba62e0a873a9b3f43c878e8201108f5dab6dcff28",
+    "wordnet/dict/index.adv": "6f5465ed5758fe9c8a2f7ec17b1300f3aa875756c70ff7cba162f7e71bcf88ea",
+    "wordnet/dict/index.noun": "a490d99d93d017bf4822fe2f0ffa51fd73911ce271dc7535fade21f8814b5a04",
+    "wordnet/dict/index.verb": "c7c79b558d787f1e31c6f8b3eeadb8fcbb26a64545ecc1241e21d9b61f95ee8e"
+  }
+}

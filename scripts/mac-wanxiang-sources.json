@@ -1,0 +1,203 @@
+{
+  "repository": "https://github.com/amzxyz/rime-wanxiang-data",
+  "commit": "6ea60e43339de4257bf815529e0fccac0704670a",
+  "committedAt": "2026-10-29T11:31:01Z",
+  "license": "CC-BY-4.0 (data only; see LICENSE-SCOPE.md)",
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 18656,
+      "gitBlobSHA1": "4ea99c213c5c0c005ae4e80df8e52169d06896ec"
+    },
+    {
+      "path": "LICENSE-SCOPE.md",
+      "size": 1196,
+      "gitBlobSHA1": "a85bf15a20f82325a2541190cc8339a1efe54c92"
+    },
+    {
+      "path": "NOTICE.md",
+      "size": 2328,
+      "gitBlobSHA1": "e11e67e841b6f101d43519a3a41826920b38fece"
+    },
+    {
+      "path": "dicts/abbrev.dict.yaml",
+      "size": 558081,
+      "gitBlobSHA1": "287565b14aa0c6896b7486128bf939e8d657b0ac"
+    },
+    {
+      "path": "dicts/cuoyin.dict.yaml",
+      "size": 8116,
+      "gitBlobSHA1": "e621f7dac4ff88e12bb8a641362b34dbd6637b1b"
+    },
+    {
+      "path": "dicts/diming.dict.yaml",
+      "size": 3307073,
+      "gitBlobSHA1": "3714f5b7d472d6c7217a311263155ed291f3c066"
+    },
+    {
+      "path": "dicts/duoyin.dict.yaml",
+      "size": 137474,
+      "gitBlobSHA1": "565a26bff0dab516eb7d3a63656979bce7972fb5"
+    },
+    {
+      "path": "dicts/en.dict.yaml",
+      "size": 1568914,
+      "gitBlobSHA1": "c2928b5c86690ef75eca8d0e87e50a8441221deb"
+    },
+    {
+      "path": "dicts/fangyan.dict.yaml",
+      "size": 8758,
+      "gitBlobSHA1": "0b192a0024706c774df234c47903e8d1cd4e11ea"
+    },
+    {
+      "path": "dicts/huaxue.dict.yaml",
+      "size": 1453393,
+      "gitBlobSHA1": "2f722ff2af1d34ef2b694c947b341b34b4e63910"
+    },
+    {
+      "path": "dicts/jichu.dict.yaml",
+      "size": 49485585,
+      "gitBlobSHA1": "ef8b876a1182a1f6025dbaedb44190b577ff4b01"
+    },
+    {
+      "path": "dicts/mingren.dict.yaml",
+      "size": 667181,
+      "gitBlobSHA1": "71862ee84a1899306b4a5699cb94ce0452f7d3f9"
+    },
+    {
+      "path": "dicts/mixed.dict.yaml",
+      "size": 35708,
+      "gitBlobSHA1": "0cc20a594e0f4d87050583c866ba75508abfbb1f"
+    },
+    {
+      "path": "dicts/shici.dict.yaml",
+      "size": 16425028,
+      "gitBlobSHA1": "eee259a799291128090345519ea5f645970a6f23"
+    },
+    {
+      "path": "dicts/t9_abbrev.dict.yaml",
+      "size": 514668,
+      "gitBlobSHA1": "b0dda8ca6d898aa52943d2cfd27689c32a1fbba2"
+    },
+    {
+      "path": "dicts/taifeng.dict.yaml",
+      "size": 8381,
+      "gitBlobSHA1": "41e1480d4920c2795cddf43689099bcd4840f9da"
+    },
+    {
+      "path": "dicts/wuzhong.dict.yaml",
+      "size": 2425099,
+      "gitBlobSHA1": "7e026924827701f9ddf028e869460a7d26cee092"
+    },
+    {
+      "path": "dicts/yaopin.dict.yaml",
+      "size": 898638,
+      "gitBlobSHA1": "7238d27eaaba563dcd11de64f5b0420e027327a6"
+    },
+    {
+      "path": "dicts/yiren.dict.yaml",
+      "size": 423957,
+      "gitBlobSHA1": "9764c992f087eaaf15e6bc067843e3dec6c29c87"
+    },
+    {
+      "path": "dicts/yixue.dict.yaml",
+      "size": 1107483,
+      "gitBlobSHA1": "d141c78857a1594c18882f455a2b0ca83fee858e"
+    },
+    {
+      "path": "dicts/zi.dict.yaml",
+      "size": 616567,
+      "gitBlobSHA1": "f0f6436035803e30cec2d28947a80faf0a5e7ef6"
+    },
+    {
+      "path": "dicts_hant/abbrev.dict.yaml",
+      "size": 558082,
+      "gitBlobSHA1": "8e4e5c2370fc2cf995f146e7cf2790be8f9e53c9"
+    },
+    {
+      "path": "dicts_hant/cuoyin.dict.yaml",
+      "size": 8116,
+      "gitBlobSHA1": "792026c37a22f62ba2db807392bd0c644dc751a5"
+    },
+    {
+      "path": "dicts_hant/diming.dict.yaml",
+      "size": 3307033,
+      "gitBlobSHA1": "435876c3b4bac954079d91c5d468b378f675189f"
+    },
+    {
+      "path": "dicts_hant/duoyin.dict.yaml",
+      "size": 137302,
+      "gitBlobSHA1": "11997415852435a635c4b3eaf637978a4916f1a8"
+    },
+    {
+      "path": "dicts_hant/en.dict.yaml",
+      "size": 1568914,
+      "gitBlobSHA1": "c2928b5c86690ef75eca8d0e87e50a8441221deb"
+    },
+    {
+      "path": "dicts_hant/fangyan.dict.yaml",
+      "size": 8725,
+      "gitBlobSHA1": "5994fbe38834161b0d247049105775bc4104aeb1"
+    },
+    {
+      "path": "dicts_hant/huaxue.dict.yaml",
+      "size": 1453505,
+      "gitBlobSHA1": "4f22b0779d8311effbc5e58a0633f37b30d78876"
+    },
+    {
+      "path": "dicts_hant/jichu.dict.yaml",
+      "size": 49493809,
+      "gitBlobSHA1": "de226aa7c488fd4fe2d85f2601fc026a16618964"
+    },
+    {
+      "path": "dicts_hant/mingren.dict.yaml",
+      "size": 666927,
+      "gitBlobSHA1": "14f949b9bd826f293cf50723c0501ff7c68b2175"
+    },
+    {
+      "path": "dicts_hant/mixed.dict.yaml",
+      "size": 35708,
+      "gitBlobSHA1": "95faf3b2fe90ba75e34b03cd1422000801670ebf"
+    },
+    {
+      "path": "dicts_hant/shici.dict.yaml",
+      "size": 16425059,
+      "gitBlobSHA1": "5b81362002b67426be34bab68796feea033c5c97"
+    },
+    {
+      "path": "dicts_hant/t9_abbrev.dict.yaml",
+      "size": 514668,
+      "gitBlobSHA1": "a4d0e871503a6b0ccf0394eb6690f99bf45ac1a3"
+    },
+    {
+      "path": "dicts_hant/taifeng.dict.yaml",
+      "size": 8381,
+      "gitBlobSHA1": "0cf4495304e84593d757af3f408d3260576e3ef0"
+    },
+    {
+      "path": "dicts_hant/wuzhong.dict.yaml",
+      "size": 2424754,
+      "gitBlobSHA1": "088632fef702d920f45ff2439703611f0dc31cf1"
+    },
+    {
+      "path": "dicts_hant/yaopin.dict.yaml",
+      "size": 898639,
+      "gitBlobSHA1": "56d8044e37e2dd43369d04af598323bb92c66ca5"
+    },
+    {
+      "path": "dicts_hant/yiren.dict.yaml",
+      "size": 423994,
+      "gitBlobSHA1": "d3b7154dfcc6f282d2e2c60cedfefbb5b8f3b6bd"
+    },
+    {
+      "path": "dicts_hant/yixue.dict.yaml",
+      "size": 1107549,
+      "gitBlobSHA1": "b4545089bd90cafdd4becaf747f3d60b97762fe2"
+    },
+    {
+      "path": "dicts_hant/zi.dict.yaml",
+      "size": 571439,
+      "gitBlobSHA1": "4b759e02f48639faa3070e5bef22461d2772eee4"
+    }
+  ]
+}

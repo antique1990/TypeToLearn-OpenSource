@@ -1,0 +1,41 @@
+Mac candidate metadata (generated 2026-10-29)
+
+character-metadata.json contains Unicode 17.0 Unihan kRSUnicode and kTotalStrokes
+values, and the Unicode CJKRadicals mapping. These data are distributed under
+the Unicode License V3; see candidate-UNICODE-3.0.txt. The first documented
+radical / stroke variant is used when Unicode lists more than one. Unknown
+metadata is omitted rather than guessed. Coverage is limited to characters in
+this project's lexicon.
+
+Its decomposition field is derived from the CJK Decomposition Data File by
+Gavin Grover, with fixes by Aaron Madlon-Kay and other amake/cjk-decomp
+contributors, revision c29b391fd6267e7a3541387e03a3dd60b1cd34d1:
+https://github.com/amake/cjk-decomp
+The upstream data offers a choice of licenses; this project uses Apache-2.0.
+See cjk-decomp-APACHE-2.0.txt. Modifications: only lexicon characters are
+included; printable top-level components are joined with " + "; numbered
+intermediate components are recursively expanded when all glyphs are known.
+Documented repeat operators are expanded, e.g. 喆 becomes 吉 + 吉.
+Unprintable primitive and modified components are omitted. These describe
+graphical parts, not etymology or a promise of identical Apple decomposition.
+
+structural-pinyin.json indexes those real components by readings from the
+project's existing Pinyin lexicon (see Resources/THIRD_PARTY_NOTICES.txt).
+It supports full component sequences of two through six components, including
+alternate readings present in the lexicon; named side forms have explicit
+standalone-character reading aliases. Missing component readings are omitted.
+This enables structural input such as jiji → 喆 and riyue → 明 without substituting
+ordinary phonetic candidates. It does not copy Apple's private lexicon.
+
+emoji-keywords.json is derived from Unicode CLDR 48 Chinese and English
+annotations, revision acd6d88ae493633240e19a87a721076a8a75c310:
+https://github.com/unicode-org/cldr
+It is covered by the Unicode License V3. Modifications: restrict entries to the
+existing Unicode 17 emoji catalog, normalize presentation selectors, include
+Mandarin pinyin keys generated using Foundation transliteration, and add a
+small set of everyday-input aliases. The existing emoji-catalog.json retains
+its original Unicode attribution in Resources/THIRD_PARTY_NOTICES.txt.
+
+Reproducible source URLs and SHA-256 hashes: candidate-data-sources.json.
+Generator: scripts/build_mac_candidate_catalog.py. The generated JSON is plain,
+editable data and is loaded only by the Mac input-method target.

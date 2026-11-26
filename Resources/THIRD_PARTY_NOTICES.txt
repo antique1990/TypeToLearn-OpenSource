@@ -1,0 +1,89 @@
+TypeToLearn third-party notices
+
+1. CC-CEDICT
+Source: https://cc-cedict.org/ and https://www.mdbg.net/chinese/dictionary?page=cedict
+Copyright CC-CEDICT contributors. CC BY-SA 4.0.
+TypeToLearn extracts Simplified and Traditional forms and Pinyin, removes tone
+numbers, creates numeric indexes, and assigns ranking weights. This adapted
+data remains under CC BY-SA 4.0. See scripts/build_lexicon.py,
+lexicon-manifest.json, and Licenses/CC-BY-SA-4.0.txt.
+
+2. Rime Cangjie 5
+Source: https://github.com/rime/rime-cangjie
+The original Cangjie table credits 惜緣 and 佛振 and names www.chinesecj.com
+as the source of its character codes. The file header states GPL. The
+upstream repository license is LGPL-3.0. Both notices are preserved. The
+baseline extracts individual characters and one- to five-letter codes into
+a SQLite index and adds weights. See Licenses/rime-cangjie-LICENSE.txt and
+Licenses/GPL-3.0.txt. The source archive keeps the original file header.
+
+3. jieba
+Source: https://github.com/fxsjy/jieba
+MIT, copyright 2013 Sun Junyi. The project uses the dictionary's frequency
+values as ranking input. See Licenses/jieba-MIT.txt.
+
+4. librime and native dependencies
+Engine: https://github.com/rime/librime (BSD 3-Clause).
+Packaging: https://github.com/ghostflyby/librime-xcframework.
+Pinned release: 1.17.0-pack.9.1.0. See scripts/rime-dependencies.json for
+download URLs and checksums. The fetch script obtains the upstream engine
+and attribution files, including Rime/LICENSE.txt, Rime/THIRD_PARTY_NOTICES.md,
+and Rime/third-party-notices.zip.
+
+5. Rime octagram language models
+Source: https://github.com/lotem/rime-octagram-data (LGPL-3.0).
+Simplified model revision: f8ce3b534733e489a8470a7c2adf5a154e8ea069.
+Traditional model revision: 97bf55046aad163c3d1881abae5312040b1bbed9.
+The grammar files are used unmodified for sentence ranking. The pinned
+download script also obtains the upstream license. The baseline Rime tables
+are compiled from the attributed baseline lexicon by scripts/build_rime_data.py.
+
+6. Unicode Emoji 17.0
+Source: https://www.unicode.org/Public/17.0.0/emoji/emoji-test.txt
+Copyright 2025 Unicode, Inc. Unicode License v3.
+The build extracts fully qualified emoji, components, and their groups.
+See Licenses/UNICODE-3.0.txt and data/unicode/emoji-test-17.txt. Mac radical,
+stroke, component, and emoji metadata have separate notices in
+Mac/InputMethod/Resources/CANDIDATE-DATA-NOTICE.txt.
+
+7. THUOCL
+Source: https://github.com/thunlp/THUOCL
+MIT, copyright 2018 THUNLP. The lexicon build selects Chinese character
+entries, generates Pinyin and Traditional forms, and uses source frequencies
+for ordering. See Licenses/THUOCL-MIT.txt.
+
+8. Princeton WordNet 3.0
+Source: https://wordnet.princeton.edu/
+Copyright 2006 Princeton University. The baseline includes ASCII words and
+index tag counts for offline completions. See Licenses/WordNet-3.0.txt.
+
+The baseline source archive is Licenses/input-sources.tar.gz. Python build
+dependencies include pypinyin 0.55.0 (MIT) and opencc-python-reimplemented
+0.1.7 (Apache-2.0).
+
+9. Loadersz 0.8.0 Typing
+Source: https://github.com/lumberjacque/loadersz-core
+The project ports the three-dot timing to Core Animation, adapts its colors,
+and removes the projected dots.
+
+MIT License
+
+Copyright (c) 2026 lumberjacque
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
